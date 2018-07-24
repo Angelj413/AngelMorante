@@ -217,6 +217,14 @@ body{
   margin: 10px 10px 10px 0;
 }
 
+#enviar{
+	background-image: linear-gradient(to bottom, #ffa000, #ffa800, #ffb100, #ffb902, #ffc107);
+	padding: 5px;
+	color: white;
+	border-radius: 10%;
+	border-style: none;
+	width: 100px;	
+}
 
 .footer .contenedor {
   display: flex;
