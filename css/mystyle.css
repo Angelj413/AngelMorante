@@ -1,12 +1,13 @@
 body{
 	margin: 0;
 	font-family: 'Roboto', sans-serif;
-	background: rgb(33,33,33);
+	/*background: rgb(33,33,33);*/
+	background: #212121;
 }
 
 /*BARRA DE NAVEGACION*/
 .menu{
-	background-color: rgb(33,33,33);
+	background-color: rgba(33,33,33,.3);
 	-webkit-box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.5);
 	-moz-box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.5);
 	box-shadow: 0px 4px 12px 2px rgba(0,0,0,0.5);
@@ -26,7 +27,7 @@ body{
 .menu h2{
 	color: white;
 	font-family: 'Merienda', sans-serif;
-	text-shadow: 0px 2px 2px #4CAF50;
+	text-shadow: 0px 2px 2px #FFC107;
 }
 
 .menu li{
@@ -43,7 +44,7 @@ body{
 
 .menu li:hover{
 	transition: .5s;
-	text-shadow: 0px -5px 5px  #4CAF50;
+	text-shadow: 0px -10px 10px  #FFA000;
 }
 
 /*FIN BARRA DE NAVEGACIÓN*/
@@ -57,7 +58,7 @@ body{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-	background-size: 100%;
+	background-size: cover;
 	position: relative;
 	z-index: -1;
 }
@@ -77,11 +78,11 @@ body{
 
 
 .sub_title_1 span{
-	color: #4CAF50;
+	color: #FFA000;
 }
 
 .contenedor_1 a{
-	background-color: #4CAF50;
+	background-image: linear-gradient(to bottom, #ffa000, #ffa800, #ffb100, #ffb902, #ffc107);
 	text-decoration: none;
 	padding: 10px;
 	color: white;
@@ -96,6 +97,7 @@ body{
 */
 /*PADRE 1*/
 #padre_1{
+	/*background-image: linear-gradient(to top, #212121, #343434, #494949, #5f5f5f, #757575);*/
 	color: white;
 	display: flex;
 	justify-content: center;
@@ -127,7 +129,8 @@ body{
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	background: white;
+	/*background: #FFA000;*/
+	background-image: linear-gradient(to bottom, #ffa000, #ffa800, #ffb100, #ffb902, #ffc107);
 }
 
 #padre_2 .img_cont{
@@ -164,8 +167,11 @@ body{
 .intermedio_1{
 	color: white;
 	text-align: center;
-	background:black;
 	padding: 1em;
+	background: url(../img/code-desenfocado.png);
+	background-position: center;
+	background-size: cover;
+	background-attachment: fixed;
 }
 
 .intermedio_1 h4{
@@ -176,102 +182,78 @@ body{
 
 .intermedio_1 p{
 	margin:0;
+	padding: 5px;
+	padding-top: 20px;
 }
 
-/*FIN PADRE 1*/
+.footer {
+  padding: 50px;
+  background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
 
-/*FIN PRIMER CONTENEDOR*/
+.contacto {
+  display: flex;
+  width: 300px;
+  flex-wrap: wrap;
+  align-items: center;
+}
 
-/*.intermedio_1{
+.contacto h3 {
+	color: white;
 	font-family: 'Merienda', sans-serif;
-	width: 100%;
+  display: block;
+  font-size: 2em;
 }
 
-.intermedio_1 h4{
-	text-align: center;
-	margin-bottom: 0;
+.contacto strong {
+  display: block;
 }
 
-.intermedio_1 p{
-	text-align: right;
-	margin: 0;
-	padding-right: 200px;
-}*/
-/*FIN PRIMER INTERMEDIO*/
-
-/*PARALLAX*/
-
-#parallax_1{
-	height: 100px;
-	width: 100%;
-	background: url(../img/laptop.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100%;
+.contacto a {
+  color: white;
+  text-decoration: none;
+  margin: 10px 10px 10px 0;
 }
 
-#parallax_2{
-	height: 100px;
-	width: 100%;
-	background: url(../img/laptop.jpg);
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: 100%;
-}
-/*FIN PARALLAX*/
 
-/*CONTENEDOR 2*/
-.contenedor_2{
-	text-align: center;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	padding: 1em;
-	font-size: 1em;
+.footer .contenedor {
+  display: flex;
+  justify-content: space-between;
 }
 
-.contenedor_2 .img_cont{
-	width: 200px;
-	height: 200px;
-	border-radius: 50%;
-	position: relative;
-	z-index: 2;
+
+.formulario {
+  display: flex;
+  width: 400px;
+  color: white;
 }
-/*FIN CONTENEDOR 2*/
-
-
-/*CONTENEDOR 3*/
-.contenedor_3{
-	text-align: center;
-	display: flex;
-	justify-content: space-around;
-	align-items: center;
-	border:1px solid #212121; 
-	padding: 1em;
+.col1, .col2 {
+  display: flex;
+  flex-direction: column;
 }
 
-.contenedor_3 div{
-	width: 100%;
+.col1 {
+  margin-right: 15px;
+}
+.col2 {
+  align-items: flex-start;
 }
 
-.cont_izq{
-	/*padding-top: 5em;*/
+.col2 .button {
+  margin-top: 15px;
 }
 
-.cont_der{
-	/*padding-top: 5em;*/
+.intereses label {
+  font-size: 12px;
 }
 
-#img_cont2{
-	width: 300px;
-	height: 300px;
-	border-radius: 50%;
-	border: 2px solid #212121;
-	position: relative;
-	z-index: 3;
+.formulario label, .sexo, .intereses {
+  margin-bottom: 10px;
 }
 
-/*FIN CONTENEDOR 3*/
 
+.sexo {
+  margin-top: 10px;
+}

@@ -40,7 +40,7 @@
 	<div id="padre_2">
 		<div class="hijo_1">
 			<h4>Desarrollo de Aplicaciones</h4>
-			<p>¿Tienes una idea de negocios muy buena o un proyecto que puede ayudar a la sociedad? entonces es momento de hacer tus sueños software. El desarrollo de aplicaciones web potencieran el alcance de tus proyectos
+			<p>¿Tienes una idea de negocios muy buena o un proyecto que puede ayudar a la sociedad? entonces es momento de hacer tus sueños software. El desarrollo de aplicaciones web o móviles potenciera el alcance de tus proyectos
 			personales, será llevar tu idea a los bolsillos de las personas...</p>
 		</div>
 		<div class="hijo_2">
@@ -53,9 +53,50 @@
 		<p>¿Ya tienes un proyecto iniciado pero sientes que le falta algo? ¿Necesitas ayuda con un poco de código especifico, tambien puedo ayudarte...</p>
 	</div>
 	<div class="parallax"></div>
-	<footer class="footer" id="footer">
-		
-	</footer>
+	<footer class="footer">
+      <div class="contenedor">
+        <div class="contacto">
+          <h3>Angel Morante</h3>
+          <a href="tel:+584169151202"><strong>Telefono</strong> <span>+584169151202</span></a>
+          <a href="mailto:morante413@gmail.com"><strong>E-mail</strong> <span>morante413@gmail.com</span></a>
+        </div>
+        <form class="formulario">
+          <div class="col1">
+            <label for="nombre">Nombre</label>
+            <input type="text" required id="nombre" name="nombre"/>
+            <label for="email">E-mail</label>
+            <input type="email" required id="email" name="email"/>
+            <div class="sexo">
+              <label for="mujer">
+                <input type="radio" id="mujer" checked name="sexo" value="mujer"> mujer
+              </label>
+              <label for="hombre">
+                <input type="radio" id="hombre" name="sexo" value="hombre"> hombre
+              </label>
+            </div>
+            <div class="intereses">
+              <label for="cotizacion">
+                <input type="checkbox" checked id="cotizacion" name="intereses" value="cotizacion"> Cotización
+              </label>
+              <label for="reclamos">
+                <input type="checkbox" id="reclamos" name="intereses" value="reclamos"> Reclamos
+              </label>
+              <label for="comentarios">
+                <input type="checkbox" id="comentarios" name="intereses" value="comantarios"> Comentarios
+              </label>
+              <label for="otros">
+                <input type="checkbox" id="otros" name="intereses" value="otros"> Otros
+              </label>
+            </div>
+          </div>
+          <div class="col2">
+            <label for="comentarios">Comentarios</label>
+            <textarea name="comantarios" id="comentarios" cols="30" rows="7"></textarea>
+            <input type="submit" value="Enviar" class="button"/>
+          </div>
+        </form>
+      </div>
+    </footer>
 	<!-- <div class="contenedor_2" id="contenedor_2">
 		<div class="cont_izq">
 			<h4>Diseño Web Responsive</h4>
