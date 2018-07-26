@@ -113,6 +113,7 @@ body{
 
 #padre_1 .hijo_2{
 	padding: 50px;
+	text-align: justify;
 }
 
 #padre_1 .hijo_2 h4{
@@ -142,6 +143,7 @@ body{
 
 #padre_2 .hijo_1{
 	padding: 50px;
+	text-align: justify;
 }
 
 #padre_2 .hijo_1 h4{
@@ -152,7 +154,6 @@ body{
 
 /*FIN PADRE 2*/
 
-/*PADRE 1*/
 .parallax {
 	color: white;
 	text-align: center;
@@ -163,6 +164,39 @@ body{
 	background-size: cover;
 	background-attachment: fixed;
 }
+
+/*PADRE 3*/
+#padre_3{
+	background: white;
+	display: flex;
+	height: 400px;
+}
+
+#padre_3 .hijo2{
+	padding: 40px;
+	text-align: justify;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+} 
+
+
+#padre_3 .hijo2 p{
+	display: inline-block;
+	margin: 0;
+} 
+
+#padre_3 .hijo1 img{
+	height: 400px;
+} 
+
+#padre_3 .hijo2 h2{
+	font-family: 'Merienda', sans-serif;
+	color: #FFA000;
+} 
+
+/*FIN PADRE 3*/
 
 .intermedio_1{
 	color: white;
@@ -265,3 +299,63 @@ body{
 .sexo {
   margin-top: 10px;
 }
+
+.content{
+	background-image: linear-gradient(to top, #ffa000, #ffffff);;
+}
+
+.content a{
+	text-decoration: none;
+}
+
+.content p{
+	color: black;
+}
+
+.content h3{
+	font-family: 'Merienda', sans-serif;
+	color: black;
+}
+
+.content .circle{
+	border-radius: 50%;
+	width: 250px;
+	height: 250px;
+	transition:2s;
+}
+
+.content .no_show{
+	display: none;
+}
+
+.preview--open p,.preview--open li{
+	color: white;
+}
+
+.preview--open li{
+	font-size: 20px;
+}
+
+.preview--open h3{
+	color: #FFA000;
+	font-size: 2em;
+}
+
+.preview--open p em{
+	color: #FFA000;
+}
+
+.preview--open i{
+	color: #ffa800;
+}
+
+.preview--open .no_show, .content .no_show li{
+	display: block;
+}
+
+.preview--open .circle{
+	border-radius: 0;
+	width: auto;
+	height: auto;
+}
+

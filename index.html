@@ -4,7 +4,10 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 		<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700|Allerta|Merienda|Roboto+Condensed' rel='stylesheet' type='text/css'>
 		<title>Angel Morante</title>
+		<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.3.0/css/font-awesome.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/style2.css" />
 		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		<script src="js/modernizr-custom.js"></script>
 	</head>
 <body>
 	<header class="header">
@@ -53,6 +56,79 @@
 		<p>¿Ya tienes un proyecto iniciado pero sientes que le falta algo? ¿Necesitas ayuda con un poco de código especifico? tambien puedo ayudarte...</p>
 	</div>
 	<div class="parallax"></div>
+	<div id="padre_3">
+		<div class="hijo1">
+			<img src="img/invie-acustica.png">
+		</div>
+		<div class="hijo2">
+			<h2>Sobre Mí</h2>
+			<p>
+				Como ya sabrás, me llamo <b> Angel</b>, soy Venezolano, con exactamente <span id="edad">23</span> años de edad, esposo de una hermosa mujer, hijo de una madre ejemplar, desarrollador web, próximo Ing. de Computación  y, más importante que todo lo anterior, seguidor de Jesùs. <br>
+				Aquí podrás conocer mis <a href="#" style="color: #FFA000; text-decoration: none;">Trabajos</a> y mis <a href="#" style="color: #FFA000; text-decoration: none;">Estudios Realizados</a>
+			</p>
+		</div>
+	</div>
+
+		<div class="content">
+			<div class="grid">
+				<div class="grid__item" data-size="1280x853">
+					<a href="img/aprender.jpg" class="img-wrap"><img class="circle" src="img/aprender.jpg" alt="img08" />
+						<div class="description description--grid">
+							<h3>Estudios y Experiencias</h3>
+							<p>"Un ser sin estudios es un ser incompleto"<em>&mdash; Simón Bolívar</em></p>
+							<p class="no_show"> Soy Estudiante de Ing. de Computación en la Universidad Simón Bolívar (USB) ubicada en "Valle de Sartenejas", Municipio Baruta, Estado Miranda. Actualmente estoy cursando el 10mo Trimestre Adquiriendo habilidades y conocimientos en: Lógica Simbólica, Matemáticas Discretas, Programaciòn Orientada a Objetos, Bases de Datos, Arquitectura y Organización del Computador, Sistemas Operativos, Cálculo Númerico, Álgreba Lineal, Ingles, Estudios Sociales y Estudios Generales.</p>
+						</div>
+					</a>
+				</div>
+				<div class="grid__item" data-size="1280x857">
+					<a href="img/front.jpg" class="img-wrap"><img class="circle" src="img/front.jpg" alt="front-end" />
+						<div class="description description--grid">
+							<h3>Frontend</h3>
+							<p>"No es lo que vendes, sino cómo lo vendes"<em>&mdash; Anonimo</em></p>
+							<p class="no_show">Me formado en diferentes áreas en la arquitectura frontend para ayudarte a mostrar un producto de calidad, entre ellas: HTML, CSS (Grid Layout), Javascript, React, Diseño Responsive, y más... 
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="grid__item" data-size="1280x1280">
+					<a id="back" href="img/back.jpg" class="img-wrap muestras"><img class="circle" src="img/back.jpg" alt="img06" />
+						<div class="description description--grid">
+							<h3>Backend</h3>
+							<p>"Una máquina puede reemplazar el trabajo de 50 personas comunes y corrientes. Ninguna máquina podrá reemplazar el trabajo de una sola persona extraordinaria"<em>&mdash; Elbert Hubbard</em></p>
+							<p class="no_show">Mi deseo es brindar un servicio robusto, completo y de calidad, y entre mis conocimientos de backend se encuentran: PHP con Laravel (Intermedio/Avanzado), Node.js(Básico),Django (Básico), Web2py (Básico). Y el manejo de Bases de Datos (SQL y PLSQL) con: MySQL, PostgreSql. 
+							</p>
+						</div>
+					</a>
+				</div>
+				<div class="grid__item" data-size="865x1280">
+					<a href="img/cursos.jpg" class="img-wrap"><img class="circle" src="img/cursos.jpg" alt="img09" />
+						<div class="description description--grid">
+							<h3>Cursos Realizados</h3>
+							<p>"Mas la senda de los justos es como la luz de la aurora, Que va en aumento hasta que el día es perfecto" <em>&mdash; Proverbios 4:18 (RVR1960)</em></p>
+							<p class="no_show">En el mundo de la tecnología pierde quien no renueva los conocimientos, por eso estoy en constante aprensiaje con diferentes cursos desde presenciales hasta online. Entre ellos:
+								<ul class="no_show">
+									<li>Web Designer, CDD Escuela de Comunicación Visual y Arte</li>
+									<li>Desarrollo Web Online, Platzi</li>
+									<li>Responsive Design, Platzi</li>
+									<li>Programación Básica, Platzi</li>
+									<li>Fundamentos de Javascript, Platzi</li>
+									<li>De Jquery a Javascript, Platzi</li>
+									<li>Bitcoin y Blockchain, Platzi</li>
+								</ul>
+							</p>
+						</div>
+					</a>
+				</div>
+				
+			</div>
+			<!-- /grid -->
+			<div class="preview">
+				<button class="action action--close"><i class="fa fa-times"></i><span class="text-hidden">Close</span></button>
+				<div class="description description--preview"></div>
+			</div>
+			<!-- /preview -->
+		</div>
+
 	<footer class="footer">
       <div class="contenedor">
         <div class="contacto">
@@ -97,41 +173,70 @@
         </form>
       </div>
     </footer>
-	<!-- <div class="contenedor_2" id="contenedor_2">
-		<div class="cont_izq">
-			<h4>Diseño Web Responsive</h4>
-			<img class="img_cont" src="img/respon.jpg">
-		</div>
-		<div class="cont_cent">
-			<h4>Desarrollo de Aplicaciones</h4>
-			<img class="img_cont" src="img/negocios.jpg">
-		</div>
-		<div class="cont_der">
-			<h4>Programación Web a medida</h4>
-			<img class="img_cont" src="img/code.jpg">
-		</div>
-	</div> -->
-	<!--<div id="parallax_1"></div>
-		<div class="intermedio_1">
-			<h4>"Los pensamientos del diligente ciertamente tienden a la abundancia..."</h4><br>
-			<p>Probervios 21:5</p>
-		</div>
-	<div id="parallax_2"></div>
-	<div class="contenedor_3">
-		<div class="cont_izq">
-			<h4>Diseño web</h4>
-			<span>Desarrollo web, diseño de interfaz de usuario, arquitectura de software...</span>
-		</div>
-		<div class="cont_cent">
-			<img id="img_cont2" src="img/devlap.jpg">
-		</div>
-		<div class="cont_der">
-			<h4>Respondive Design</h4>
-			<span>Diseño adaptable a diferentes dispositivos</span>
-		</div>
-	</div> -->
 	<script type="text/javascript" src="js/particles.js"></script>
+	<script src="js/imagesloaded.pkgd.min.js"></script>
+	<script src="js/masonry.pkgd.min.js"></script>
+	<script src="js/classie.js"></script>
+	<script src="js/main.js"></script>
 	<script>
 		particlesJS('contenedor_particulas');
+
+		(function() {
+			var support = { transitions: Modernizr.csstransitions },
+				// transition end event name
+				transEndEventNames = { 'WebkitTransition': 'webkitTransitionEnd', 'MozTransition': 'transitionend', 'OTransition': 'oTransitionEnd', 'msTransition': 'MSTransitionEnd', 'transition': 'transitionend' },
+				transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+				onEndTransition = function( el, callback ) {
+					var onEndCallbackFn = function( ev ) {
+						if( support.transitions ) {
+							if( ev.target != this ) return;
+							this.removeEventListener( transEndEventName, onEndCallbackFn );
+						}
+						if( callback && typeof callback === 'function' ) { callback.call(this); }
+					};
+					if( support.transitions ) {
+						el.addEventListener( transEndEventName, onEndCallbackFn );
+					}
+					else {
+						onEndCallbackFn();
+					}
+				};
+
+			new GridFx(document.querySelector('.grid'), {
+				imgPosition : {
+					x : -0.5,
+					y : 1
+				},
+				onOpenItem : function(instance, item) {
+					instance.items.forEach(function(el) {
+						if(item != el) {
+							var delay = Math.floor(Math.random() * 50);
+							el.style.WebkitTransition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), -webkit-transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+							el.style.transition = 'opacity .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1), transform .5s ' + delay + 'ms cubic-bezier(.7,0,.3,1)';
+							el.style.WebkitTransform = 'scale3d(0.1,0.1,1)';
+							el.style.transform = 'scale3d(0.1,0.1,1)';
+							el.style.opacity = 0;
+						}
+					});
+				},
+				onCloseItem : function(instance, item) {
+					instance.items.forEach(function(el) {
+						if(item != el) {
+							el.style.WebkitTransition = 'opacity .4s, -webkit-transform .4s';
+							el.style.transition = 'opacity .4s, transform .4s';
+							el.style.WebkitTransform = 'scale3d(1,1,1)';
+							el.style.transform = 'scale3d(1,1,1)';
+							el.style.opacity = 1;
+
+							onEndTransition(el, function() {
+								el.style.transition = 'none';
+								el.style.WebkitTransform = 'none';
+							});
+						}
+					});
+				}
+			});
+		})();
 	</script>
+
 </body>
